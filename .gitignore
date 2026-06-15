@@ -223,3 +223,4 @@ private-key.pem
 
 #python
 __pycache__/
+.venv/
