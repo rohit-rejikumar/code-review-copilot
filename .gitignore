@@ -217,4 +217,9 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-.python_packages
+.python_packages/
+.vscode/
+.funcignore
+__pycache__/
+*.pyc
+private-key.pem
