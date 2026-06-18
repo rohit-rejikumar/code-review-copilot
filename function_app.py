@@ -11,7 +11,7 @@ app = func.FunctionApp()
 
 @app.route(
     route="github-webhook",
-    auth_level=func.AuthLevel.FUNCTION
+    auth_level=func.AuthLevel.ANONYMOUS
 )
 def github_webhook(req: func.HttpRequest) -> func.HttpResponse:
 
