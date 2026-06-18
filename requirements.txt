@@ -1,0 +1,6 @@
+azure-functions
+requests
+PyJWT
+python-dotenv
+openai
+cryptography
